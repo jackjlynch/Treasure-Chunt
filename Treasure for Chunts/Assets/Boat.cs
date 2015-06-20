@@ -7,7 +7,7 @@ public class Boat : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
         rigidbody = GetComponent<Rigidbody2D>();
-        rigidbody.AddForce(new Vector2(10, 0), ForceMode2D.Impulse);
+        rigidbody.AddForce(new Vector2(50, 0), ForceMode2D.Impulse);
 	}
 	
 	// Update is called once per frame
